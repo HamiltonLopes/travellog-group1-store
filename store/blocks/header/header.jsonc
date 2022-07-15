@@ -58,6 +58,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
+      "rewards",
       "search-bar",
       "locale-switcher",
       "login",
@@ -96,6 +97,7 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
+      "rewards",
       "login",
       "minicart.v2"
     ],
