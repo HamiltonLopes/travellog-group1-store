@@ -4,104 +4,88 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#category-electronics",
+      "menu-item#category-components",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-electronics": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-electronics",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/eletronicos/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Eletrônicos",
+        "text": "Eletrônicos"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-electronics"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-electronics": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-electronics"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-electronics": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-electronics-consoles",
+      "menu-item#category-electronics-notebooks"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-electronics-consoles": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-electronics-consoles",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/eletronicos/consoles/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Consoles",
+        "text": "Consoles"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-electronics-notebooks": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-electronics-notebooks",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/eletronicos/notebook/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Notebooks",
+        "text": "Notebooks"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-components": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-components",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/componentes-para-computadores",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Componentes",
+        "text": "Componentes"
       }
     }
   },
@@ -115,8 +99,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Mais",
+        "text": "Mais"
       }
     },
     "blocks": [
@@ -152,8 +136,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#about-us"
     ]
   },
   "menu-item#about-us": {
@@ -166,8 +149,8 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "Sobre",
+        "text": "Sobre"
       }
     }
   },
@@ -196,8 +179,8 @@
         "type": "internal",
         "href": "/contact-us",
         "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "tagTitle": "Contato",
+        "text": "Contato"
       }
     }
   }

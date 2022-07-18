@@ -5,9 +5,7 @@
     },
     "children": [
       "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#sale"
     ]
   },
   "menu-item#news": {
@@ -18,10 +16,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Novidades",
+        "text": "Novidades"
       }
     }
   },
@@ -33,7 +31,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/#",
         "noFollow": false,
         "tagTitle": "BlackFriday",
         "text": "Black Friday"
@@ -48,10 +46,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Promoção",
+        "text": "Promoções"
       }
     }
   },
@@ -76,56 +74,56 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#consoles",
+      "menu-item#notebooks",
+      "menu-item#componentes"
     ]
   },
 
-  "menu-item#smartphones": {
+  "menu-item#consoles": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-item-consoles",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/eletronicos/consoles/",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "consoles",
+        "text": "Consoles"
       }
     }
   },
 
-  "menu-item#videogames": {
+  "menu-item#notebooks": {
     "props": {
-      "id": "menu-item-videogames",
+      "id": "menu-item-notebooks",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "/eletronicos/notebook/",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "notebooks",
+        "text": "Notebooks"
       }
     }
   },
 
-  "menu-item#tvs": {
+  "menu-item#componentes": {
     "props": {
-      "id": "menu-item-tvs",
+      "id": "menu-item-componentes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/componentes-para-computadores",
         "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
+        "tagTitle": "componentes",
+        "text": "Componentes"
       }
     }
   },
@@ -265,9 +263,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#consoles",
+      "menu-item#notebooks",
+      "menu-item#componentes"
     ]
   },
 
@@ -289,9 +287,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#consoles",
+      "menu-item#notebooks",
+      "menu-item#componentes"
     ]
   },
 

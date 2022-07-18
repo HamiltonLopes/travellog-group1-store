@@ -81,9 +81,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "https://i.ibb.co/F68fV4r/Whats-App-Image-2022-07-18-at-14-57-05-removebg-preview.png",
+      "width": "200",
+      "height": "40"
     }
   },
   "header-layout.mobile": {
@@ -114,8 +114,8 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#category-electronics",
+      "menu-item#category-components",
       "menu-item#more"
     ],
     "props": {
@@ -127,9 +127,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "https://i.ibb.co/F68fV4r/Whats-App-Image-2022-07-18-at-14-57-05-removebg-preview.png",
+      "width": "110",
+      "height": "30"
     }
   }
 }
