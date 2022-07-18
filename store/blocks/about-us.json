@@ -1,8 +1,7 @@
 {
   "store.custom#about-us": {
     "blocks": [
-      "flex-layout.row#about-us",
-      "video#about-us"
+      "flex-layout.row#about-us"
     ]
   },
 
@@ -27,14 +26,14 @@
   "rich-text#title-about-us": {
     "props": {
       "text":
-      "# Create meaningful and relevant experiences.",
+      "# Casa Travellog - Grupo 1",
       "blockClass": "title"
     }
   },
 
   "image#mobile-phone": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "src": "https://i.ibb.co/ctFhjXG/Captura-de-Tela-2022-07-18-a-s-13-39-22.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -49,7 +48,7 @@
   },
   "rich-text#about-us": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "text": " #### Aqui temos pessoas com uma grande sabedoria e aprendem muito através das suas experiências. Apenas com a força da mente, você absorve todo conteúdo, desde o front ao back-end e sabe se comunicar como ninguém com uma serenidade no olhar. Sua memória é um dos seus diferenciais e com ela é capaz de lembrar de coisas que a maioria das pessoas esqueceram e usa a seu favor na sua jornada da vida.",
       "blockClass": "about"
     }
   }

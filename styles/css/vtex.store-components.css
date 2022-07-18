@@ -14,7 +14,7 @@
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: #3b3d42;
   max-width: 1528px;
   margin: 0 auto;
 }
@@ -59,6 +59,12 @@
 .imageElement--storePrint {
   max-height: 300px;
   margin-bottom: 20px;
+}
+
+.imageElement {
+  /* width: 100%;
+  height: auto; */
+  object-fit: cover;
 }
 
 .skuSelectorContainer {

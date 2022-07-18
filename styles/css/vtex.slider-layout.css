@@ -29,3 +29,9 @@
   padding-right: .5rem;
   min-height: 550px;
 }
+
+.imageElement {
+  /* width: 100%;
+  height: auto; */
+  object-fit: cover;
+}
