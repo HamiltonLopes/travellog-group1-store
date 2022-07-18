@@ -55,7 +55,7 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "category": "eletronicos"
+      "collection": "141"
     }
   },
   "slider-layout#demo-products": {
