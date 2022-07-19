@@ -10,6 +10,18 @@
   text-align: center;
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.headingLevel1--title {
+  /* justify-content: center; */
+  text-align: center;
+  color: #3b3d42;
+}
+
 .headingLevel2--shelfTitle {
   font-weight: 200;
 }
