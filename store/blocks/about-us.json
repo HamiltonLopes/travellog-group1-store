@@ -7,7 +7,7 @@
 
   "flex-layout.row#about-us": {
     "children": [
-      "image#mobile-phone",
+      "image#travellog",
       "flex-layout.col#text-about-us"
     ]
   },
@@ -31,7 +31,7 @@
     }
   },
 
-  "image#mobile-phone": {
+  "image#travellog": {
     "props": {
       "src": "https://i.ibb.co/ctFhjXG/Captura-de-Tela-2022-07-18-a-s-13-39-22.png",
       "maxHeight": "",
