@@ -64,7 +64,8 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
     "travellog.rewards": "1.x",
-    "travellog.rewards-extension": "1.x"
+    "travellog.rewards-extension": "1.x",
+    "travellog.show-points-service":"0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x"
