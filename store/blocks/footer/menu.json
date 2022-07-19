@@ -5,7 +5,8 @@
     },
     "children": [
       "menu-item#news",
-      "menu-item#sale"
+      "menu-item#sale",
+      "menu-item#contact-us"
     ]
   },
   "menu-item#news": {

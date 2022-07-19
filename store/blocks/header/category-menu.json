@@ -128,15 +128,29 @@
   },
   "flex-layout.col#menu-more-2": {
     "children": [
-      "info-card#home"
+      "info-card#menu"
     ]
+  },
+  "info-card#menu": {
+    "props": {
+      "id": "info-card-menu",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://i.im.ge/2022/07/19/FuvWfm.jpg",
+      "headline": "Novidades",
+      "callToActionText": "SAIBA MAIS",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-menu",
+      "textAlignment": "center"
+    }
   },
   "vtex.menu@2.x:menu#more": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us"
+      "menu-item#about-us",
+      "menu-item#contact-us"
     ]
   },
   "menu-item#about-us": {
