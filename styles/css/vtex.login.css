@@ -35,3 +35,12 @@
 .backButton div {
     color: #202124;
 }
+
+@media only screen and (max-width: 1024px) {
+    .label {
+        display: block;
+    }
+    .profile {
+        display: block;
+    }
+  }

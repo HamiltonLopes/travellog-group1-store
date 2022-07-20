@@ -11,12 +11,21 @@
       "product-questions-and-answers"
     ]
   },
+  "shelf.relatedProducts": {
+    "props": {
+      "productList": {
+        "showTitle": true,
+        "titleText": "Produtos Relacionados"
+      }
+    },
+    "blocks": ["product-summary.shelf"]
+  },
   "flex-layout.row#specifications-title": {
     "children": ["rich-text#specifications"]
   },
   "rich-text#specifications": {
     "props": {
-      "text": "##### Product Specifications"
+      "text": "##### Especificações do Produto"
     }
   },
   "flex-layout.row#product-breadcrumb": {

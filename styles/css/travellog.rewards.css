@@ -12,6 +12,7 @@
     text-align: center; */
     text-decoration: none;
     /* display: inline-block; */
+    display: block;
 }
 
 .rewardslink:hover {
