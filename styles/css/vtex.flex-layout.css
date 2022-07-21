@@ -98,3 +98,24 @@
   padding-bottom: 1rem;
 }
 
+@media only screen and (max-width: 1024px) {
+
+  .flexRowContent--menu-more {
+    -webkit-box-flex: 0;
+    display: block;
+    flex: none;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
+  .flexRowContent--menu-more .stretchChildrenWidth {
+    width: 100% !important; 
+  }
+  
+  /* .flexRowContent--menu-more .flexCol--menu-more-1 {
+    width: 100%;
+  } */
+  /* .flexRowContent--menu-more .flexCol--menu-more-2 {
+    width: 100%;
+  } */
+}
