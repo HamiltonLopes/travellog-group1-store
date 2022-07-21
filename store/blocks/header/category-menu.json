@@ -116,17 +116,26 @@
     ]
   },
   "flex-layout.row#menu-more": {
+    "props": {
+      "blockClass": "menu-more"
+    },
     "children": [
       "flex-layout.col#menu-more-1",
       "flex-layout.col#menu-more-2"
     ]
   },
   "flex-layout.col#menu-more-1": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
     "children": [
       "vtex.menu@2.x:menu#more"
     ]
   },
   "flex-layout.col#menu-more-2": {
+    "props": {
+      "blockClass": "menu-more-2"
+    },
     "children": [
       "info-card#menu"
     ]

@@ -128,8 +128,8 @@
   image-rendering: -webkit-optimize-contrast;
 }
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
   .infoCardImageContainer--info-card-menu {
     display: none;
   }
-}
+} */
