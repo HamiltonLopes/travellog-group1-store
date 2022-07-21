@@ -70,7 +70,7 @@ Este Repositório hospeda os seguintes items
   * `https://workspace.enviroment.com/api/sessions?items=*` - Acessa dados da sessão do usuário
   * `https://workspace.enviroment.com/_v/pvt/points/:clientId` - Acessa pontuação do usuário por id
 
-# Documentação-Swagger
+## Documentação-Swagger
   Debit API:
   
   ![debitAPI](https://user-images.githubusercontent.com/9729963/180130339-8963c981-1a99-4665-b02b-0f035c295a49.jpg)
