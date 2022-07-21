@@ -1,0 +1,46 @@
+.googleOptionBtn {
+    background-color: #eef3f7;
+}
+
+.googleOptionBtn span {
+    color: #202124;
+}
+
+.content {
+    background-color: #e3e4e6;
+}
+
+.accountOptions button {
+    background-color: #e3e4e6;
+    color: #e3e4e6;
+    text-decoration: none;
+}
+
+.accountOptions button:hover {
+    background-color: #dbe9fd;
+}
+
+.accountOptions button span {
+    color: #202124;
+}
+
+.accountOptions button span:hover {
+    color: #0c389f;
+}
+
+.backButton span {
+    color: #202124;
+}
+
+.backButton div {
+    color: #202124;
+}
+
+@media only screen and (max-width: 1024px) {
+    .label {
+        display: block;
+    }
+    .profile {
+        display: block;
+    }
+  }

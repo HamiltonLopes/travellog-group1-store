@@ -1,0 +1,210 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-electronics",
+      "menu-item#category-components",
+      "menu-item#more"
+    ]
+  },
+  "menu-item#category-electronics": {
+    "props": {
+      "id": "menu-item-category-electronics",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletronicos/",
+        "noFollow": false,
+        "tagTitle": "Eletrônicos",
+        "text": "Eletrônicos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-electronics"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-electronics": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-electronics"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-electronics": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-electronics-consoles",
+      "menu-item#category-electronics-notebooks"
+    ]
+  },
+  "menu-item#category-electronics-consoles": {
+    "props": {
+      "id": "menu-item-category-electronics-consoles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletronicos/consoles/",
+        "noFollow": false,
+        "tagTitle": "Consoles",
+        "text": "Consoles"
+      }
+    }
+  },
+  "menu-item#category-electronics-notebooks": {
+    "props": {
+      "id": "menu-item-category-electronics-notebooks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletronicos/notebook/",
+        "noFollow": false,
+        "tagTitle": "Notebooks",
+        "text": "Notebooks"
+      }
+    }
+  },
+  "menu-item#category-components": {
+    "props": {
+      "id": "menu-item-category-components",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/componentes-para-computadores",
+        "noFollow": false,
+        "tagTitle": "Componentes",
+        "text": "Componentes"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mais",
+        "text": "Mais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "props": {
+      "blockClass": "menu-more"
+    },
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "props": {
+      "blockClass": "menu-more-2"
+    },
+    "children": [
+      "info-card#menu"
+    ]
+  },
+  "info-card#menu": {
+    "props": {
+      "id": "info-card-menu",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://i.im.ge/2022/07/19/FuvWfm.jpg",
+      "headline": "Novidades",
+      "callToActionText": "SAIBA MAIS",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-menu",
+      "textAlignment": "center"
+    }
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#contact-us"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Sobre",
+        "text": "Sobre"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      }
+    }
+  }
+}

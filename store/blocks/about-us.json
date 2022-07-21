@@ -1,0 +1,55 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us"
+    ]
+  },
+
+  "flex-layout.row#about-us": {
+    "children": [
+      "image#travellog",
+      "flex-layout.col#text-about-us"
+    ]
+  },
+
+  "flex-layout.col#text-about-us": {
+    "children": [
+      "rich-text#title-about-us",
+      "rich-text#about-us"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-about-us": {
+    "props": {
+      "text":
+      "# Casa Travellog - Grupo 1",
+      "blockClass": "title"
+    }
+  },
+
+  "image#travellog": {
+    "props": {
+      "src": "https://i.ibb.co/ctFhjXG/Captura-de-Tela-2022-07-18-a-s-13-39-22.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "video#about-us": {
+    "props": {
+      "src": "https://www.youtube.com/embed/JgkrlaF52WQ",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+  "rich-text#about-us": {
+    "props": {
+      "text": " #### Aqui temos pessoas com uma grande sabedoria e aprendem muito através das suas experiências. Apenas com a força da mente, você absorve todo conteúdo, desde o front ao back-end e sabe se comunicar como ninguém com uma serenidade no olhar. Sua memória é um dos seus diferenciais e com ela é capaz de lembrar de coisas que a maioria das pessoas esqueceram e usa a seu favor na sua jornada da vida.",
+      "blockClass": "about"
+    }
+  }
+}
