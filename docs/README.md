@@ -87,6 +87,7 @@ As seguintes melhorias precisam ser feitas para aprimoramento do projeto
 Principais Pontos de Melhoria:
  - Melhorias no layout em geral, front-end de loja
  - Utilizar mais ferramentas de performance
+ - Disponibilizar histórico de pontos no MyAccount, funcionalidde já implementada no backend
  - Loja de pontos, onde o cliente pode utilizar seus pontos para comprar algum item da loja
  - Usar pontos como desconto
  - Plano de upgrade de pontos, onde o cliente pode assinar para ganhar o dobro de pontos nas compras
