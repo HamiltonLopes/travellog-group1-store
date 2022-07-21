@@ -8,7 +8,7 @@ Este Repositório hospeda os seguintes items
     próprio, essa api acessa um documento no MasterData da VTEX e armazena os dados de id, pontuação e gera um pequeno histórico do
     cliente com seus pontos, com ela pode-se consultar os pontos, e, com ajuda da configuração do OrderHook, creditar as compras do cliente,
     retirando o valor do *frete*. 
-  * [Api DebitRewards](https://github.com/HamiltonLopes/vtex-service-get-rewards-points): Api que debita os pontos do usuário, podendo
+  * [Api DebitRewards](https://github.com/HamiltonLopes/rewards-DebitAPI-travellog-group1.git): Api que debita os pontos do usuário, podendo
     ser utilizada com a config do OrderHook para pedidos com status: "canceled", ou por requisição passando uma ordem de debito, o id
     do cliente e o valor a ser debitado dos pontos.
   * [Vtex BackEndService getRewards](https://github.com/HamiltonLopes/vtex-service-get-rewards-points): Serviço interno da vtex que
